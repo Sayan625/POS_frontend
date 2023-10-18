@@ -7,6 +7,8 @@ const DailyReport = () => {
     const [totalRev, setTotalRev] = useState(0)
     useEffect(() => {
         //  update the active element and highlight 'Top Sales' in the Navbar
+
+        // eslint-disable-next-line
         const elements = document.querySelectorAll('.' + 'active');
         elements.forEach(element => {
             element.classList.remove('active');
@@ -18,7 +20,9 @@ const DailyReport = () => {
         }
 
         // Fetch and set the data when the component mounts
+
         SetData();
+         // eslint-disable-next-line
     }, []);
 
     // Function to set the top sales data and total revenue

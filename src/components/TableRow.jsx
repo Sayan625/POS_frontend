@@ -100,6 +100,7 @@ const TableRow = ({ item, index }) => {
                         className='form-control-sm text-center'
                     />
                 ) : (
+                    // eslint-disable-next-line
                     'Rs.' + ' ' + data?.sale_amount
                 )}
             </td>

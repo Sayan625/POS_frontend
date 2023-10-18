@@ -10,6 +10,7 @@ const Login = () => {
     // update the active element and highlight 'Login' in the Navbar
     useEffect(() => {
         // Remove 'active' className from all elements with the className 'active'
+        // eslint-disable-next-line
         const elements = document.querySelectorAll('.' + 'active');
         elements.forEach(element => {
             element.classList.remove('active');

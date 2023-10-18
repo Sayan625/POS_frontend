@@ -6,6 +6,7 @@ import axios from 'axios';
 const AllSales = () => {
     // Update the active element and highlight 'All Sales' in the Navbar
     useEffect(() => {
+         // eslint-disable-next-line
         const elements = document.querySelectorAll('.' + 'active');
         elements.forEach(element => {
             element.classList.remove('active');

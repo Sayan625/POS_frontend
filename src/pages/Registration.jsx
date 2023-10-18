@@ -12,6 +12,7 @@ const Registration = () => {
     // Update the active element and highlight 'Registration' in the Navbar
     useEffect(() => {
         // Remove 'active' class from all elements with the class 'active'
+        // eslint-disable-next-line
         const elements = document.querySelectorAll('.' + 'active');
         elements.forEach(element => {
             element.classList.remove('active');
