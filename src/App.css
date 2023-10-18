@@ -1,0 +1,17 @@
+.App{
+  height: 100vh;
+}
+
+.nav-link {
+  color: black
+}
+
+.active{
+  border-bottom: 2px solid goldenrod;
+
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  border-bottom: 2px solid goldenrod;
+}
